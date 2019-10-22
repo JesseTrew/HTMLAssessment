@@ -6,16 +6,112 @@
     </head>
     <body>
         <h2> TEXT </h2>
-        <p> <strong>Lorem</strong> Ipsum . . . </p>
-        <p> Lorem Ipsum . . . </p>
-        <p> Lorem Ipsum . . . </p>
+            <blockquote>
+                <strong>Lorem</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </blockquote>
+            <blockquote>
+                <em><strong>Nemo</strong> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</em>
+            </blockquote>
+            <blockquote>
+                <strong>Quis</strong> autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </blockquote>
 
         <h2> TABLE </h2>
         <table>
-            <caption> Game Summary </caption
-
+            <caption> Game Summary </caption>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td colspan="2">Scores by quarter</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Team Name</th>
+                    <th colspan="2">First Half</th>
+                    <th colspan="2">Second Half</th>
+                    <th rowspan="2">Final</th>
+                </tr>
+                <tr>
+                    <th>Q1</th>
+                    <th>Q2</th>
+                    <th>Q3</th>
+                    <th>Q4</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Denver</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Chicago</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>13</td>
+                    <td>32</td>
+                </tr>
         </table>
         <h2> LIST </h2>
+            <ul>
+                <li> <img src="broncos_icon.png" alt="broncos icon"/> <a href="https://en.wikipedia.org/wiki/Denver_Broncos" target="_blank">Denver Broncos</a></li>
+                    <ul>
+                        <li>Coach: Vic Fangio</li>
+                        <li>QB</li>
+                            <ol>
+                                <li>Brock Osweiler</li>
+                                <li>Trevor Siemian</li>
+                                <li>Peyton Manning (injured)</li>
+                            </ol>
+                    </ul>
+                <li> <img src="bears_icon.png" alt="bears icon"/> <a href="https://en.wikipedia.org/wiki/Chicago_Bears" target="_blank">Chicago Bears</a></li>
+                    <ul>
+                        <li>Coach: Matt Nagy</li>
+                        <li>QB</li>
+                            <ol>
+                                <li>Jay Cutler</li>
+                                <li>David Foles</li>
+                            </ol>
+
+             </ul>
+
         <h2> FORM </h2>
-    </body>
+            <form>
+                First: <input type="text" name="firstname">
+                Last: <input type="text" name="lastname"><br>
+                <p>Favorite sport:</p>
+                <select>
+                    <option value="soccer">Soccer</option>
+                    <option value="baseball">Baseball</option>
+                    <option value="hockey">Hockey</option>
+                    <option value="tether ball">Tether Ball</option>
+                </select>
+                <br>
+                <br>
+                <span>I have: </span>
+                <input type="checkbox" name="sport" value="Attended"> Attended
+                <input type="checkbox" name="sport" value="Played"> Played
+                <input type="checkbox" name="sport" value="Coached"> Coached
+                <input type="checkbox" name="sport" value="Bet On"> Bet On
+                <br><span>this sport</span>
+                <br><span>For this sport I prefer the:</span>
+                <input type="radio" name="sport2" value="amateur"> Amateur
+                <input type="radio" name="sport2" value="college"> College
+                <input type="radio" name="sport2" value="professional"> Professional
+                <br>
+                <input type="submit">
+            </form>
+
 </html>
