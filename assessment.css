@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6{
+    color: green;
+    font-family: Sans-Serif;
+}
+
+#scoreBoard{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+th {
+    font-weight: bold;
+    color: blue;
+}
+
+td{
+    text-align: center;
+}
+
+ul{
+    list-style-type: square;
+}
